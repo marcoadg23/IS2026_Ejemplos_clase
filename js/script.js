@@ -1,6 +1,3 @@
-const x = 10;
-console.log(x);
-
 // iteraciones
 const cielo = document.getElementById("cielo");
 
@@ -53,5 +50,4 @@ btnAgregarEmoji.addEventListener("click", ()=>{
 inputEmoji.addEventListener("keydown", e =>{
     if(e.key==="Escape") cielo.innerHTML="";
 })
-
 
